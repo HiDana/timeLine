@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#timesheet {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+#timeline {
+  width: calc(60px * 20);
+  height: auto;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.scale {
+  display: flex;
+}
+
+.tooltips {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px;
+}
+.tip {
+  display: flex;
+  align-items: center;
+  color: #aaa;
+  font-size: 13px;
+}
+.tip_color {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin: 0 10px;
+}
